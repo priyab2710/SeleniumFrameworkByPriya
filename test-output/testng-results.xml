@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16585" started-at="2020-03-09T15:12:07 NZDT" finished-at="2020-03-09T15:12:24 NZDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16585" started-at="2020-03-09T15:12:07 NZDT" finished-at="2020-03-09T15:12:24 NZDT">
+      <class name="end2endframework.UploadFile">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:end2endframework.UploadFile@618b19ad]" name="initialize" is-config="true" duration-ms="7378" started-at="2020-03-09T15:12:07 NZDT" finished-at="2020-03-09T15:12:15 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="VerifyLogin()[pri:0, instance:end2endframework.UploadFile@618b19ad]" name="VerifyLogin" duration-ms="9168" started-at="2020-03-09T15:12:15 NZDT" finished-at="2020-03-09T15:12:24 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+      </class> <!-- end2endframework.UploadFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

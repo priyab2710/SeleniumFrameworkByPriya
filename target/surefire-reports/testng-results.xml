@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70982" started-at="2020-03-05T14:03:36 NZDT" finished-at="2020-03-05T14:04:47 NZDT">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="70982" started-at="2020-03-05T14:03:36 NZDT" finished-at="2020-03-05T14:04:47 NZDT">
+      <class name="end2endframework.LoginPageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:end2endframework.LoginPageTest@62150f9e]" name="initialize" is-config="true" duration-ms="11226" started-at="2020-03-05T14:03:36 NZDT" finished-at="2020-03-05T14:03:47 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="VerifyLogin()[pri:0, instance:end2endframework.LoginPageTest@62150f9e]" name="VerifyLogin" duration-ms="19600" started-at="2020-03-05T14:03:47 NZDT" finished-at="2020-03-05T14:04:06 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="VerifySummaryStep()[pri:0, instance:end2endframework.LoginPageTest@62150f9e]" name="VerifySummaryStep" duration-ms="300" started-at="2020-03-05T14:04:07 NZDT" depends-on-methods="end2endframework.LoginPageTest.VerifyLogin" finished-at="2020-03-05T14:04:07 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySummaryStep -->
+        <test-method status="PASS" signature="VerifyCheckOutPageTableColumns()[pri:0, instance:end2endframework.LoginPageTest@62150f9e]" name="VerifyCheckOutPageTableColumns" duration-ms="2951" started-at="2020-03-05T14:04:07 NZDT" depends-on-methods="end2endframework.LoginPageTest.VerifySummaryStep" finished-at="2020-03-05T14:04:10 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCheckOutPageTableColumns -->
+        <test-method status="PASS" signature="VerifyAddressblock()[pri:0, instance:end2endframework.LoginPageTest@62150f9e]" name="VerifyAddressblock" duration-ms="4060" started-at="2020-03-05T14:04:10 NZDT" depends-on-methods="end2endframework.LoginPageTest.VerifyCheckOutPageTableColumns" finished-at="2020-03-05T14:04:14 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddressblock -->
+        <test-method status="PASS" signature="Verifyshipping()[pri:0, instance:end2endframework.LoginPageTest@62150f9e]" name="Verifyshipping" duration-ms="15717" started-at="2020-03-05T14:04:14 NZDT" depends-on-methods="end2endframework.LoginPageTest.VerifyAddressblock" finished-at="2020-03-05T14:04:30 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyshipping -->
+        <test-method status="PASS" signature="VerifyPayment()[pri:0, instance:end2endframework.LoginPageTest@62150f9e]" name="VerifyPayment" duration-ms="8500" started-at="2020-03-05T14:04:30 NZDT" depends-on-methods="end2endframework.LoginPageTest.Verifyshipping" finished-at="2020-03-05T14:04:39 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPayment -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:end2endframework.LoginPageTest@62150f9e]" name="teardown" is-config="true" duration-ms="7676" started-at="2020-03-05T14:04:39 NZDT" finished-at="2020-03-05T14:04:47 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- end2endframework.LoginPageTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
